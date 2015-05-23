@@ -2,446 +2,59 @@ doctype html
 head
   meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
   title Открывайте кейсы CS:GO с выгодой!
-  meta(name="description" content="Оружейные кейсы CS:GO по 89 рублей. Теперь кейсы можно открывать дешевле, чем в Steam")
-  meta(name="keywords" content="case csgo, кейсы cs go, кейс кс го")
   link(rel="stylesheet" href="stylesheets/app.css")
-  link( href="stylesheets/style.css" rel="stylesheet")
-  link( href="stylesheets/styles.css" rel="stylesheet")
-  link( href="stylesheets/bootstrap.min.css" rel="stylesheet")
-  link(href="stylesheets/jquery.arcticmodal-0.3.css" rel="stylesheet" media="screen")
-  link(type="text/css" rel="stylesheet" media="screen" href="/css/main.css")
-  link(href="//fonts.googleapis.com/css?family=Roboto:400,300,500,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css")
-  link(href="//fonts.googleapis.com/css?family=Ubuntu&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css")
+  //- link( href="stylesheets/style.css" rel="stylesheet")
 
-
-
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.0/trianglify.min.js")
   script(src="javascripts/vendor.js")
   script(src="javascripts/app.js")
-  script(type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js")
-  script(type="text/javascript" src="//cdn.socket.io/socket.io-1.3.4.js")
-  script(type="text/javascript" src="/js/bootstrap.min.js")
-  script(type="text/javascript" src="/js/jquery.arcticmodal-0.3.min.js")
-  script(type="text/javascript" src="/js/jquery.easing.1.3.js")
 
-  meta(charset="utf-8")
-  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+
+
   script.
     require('initialize');
 
 
-body(style="overflow visible margin-right 0px")
- .wrapper(style="width: 1125px padding-top 5px")
-  .row(style="margin-left 5px")
-    .brand-wrapper(style="width: 388px; float: left;")
-      .clearfix
-        .pull-left
-        .lnav
-          hr.style-two("style-two" style="margin-top: 0px; margin-bottom: 1px;")
-          a.page-scroll(href="#reviews" style="margin-right 4px")
-              | Консультант
-
-          a.data-modal("#siteGuarantee" href="#" style="margin-right 4px")
-              | Гарантии
-
-          a.data-modal("#siteFAQ" href="#")
-              | Помощь
-          hr.style-two(style="margin 0")
-          div(style="padding-top: 9px; font-size: 14px; text-align: center; position:relative;")
-          a.mainloginbtnsteamlogin
-              | Войти через стим
-
-  .stonecontainero(style="padding: 15px 10px; margin-bottom: -10px; height: 200px;")
-    div(style="font-size 24px color #F7F7F7 text-align center text-transform uppercase padding-bottom 12.5px font-weight:bold line-height 21px")
-        | Последние выигрыши<br>
-    span(style="font-size: 17px; font-weight: normal; text-transform: lowercase; letter-spacing: 1px;")
-        | В прямом эфире
-
-
-  .stonecontainero
-  .item-wrapper
-  .item(data-key="Chroma Case" data-price="99")
-    .desc
-    .name
-      | Cлучайное оружие из<br>
-    Span
-      | Chroma Case
-
-
-  .img-wrapper
-  .item-link
-    img(src="images/chroma_case.png" width="189px" class="itemsimg")
-    img(src="images/stand.png" class="stand")
-  .cost
-    img(src="images/money.png")
-    | 99 рублей
-  .buyb
-    img(src="images/ook.png" style="margin-top: -1px;")
-    | открыть
-
-
-.stonecontainero
-  .item-wrapper
-  .item(data-key="Operation Phoenix" data-price="89")
-    .desc
-    .name
-      | Cлучайное оружие из<br>
-    Span
-      | Кейс операции "Феникс"
-
-
-  .img-wrapper
-  .item-link
-    img(src="images/fenix_case.png" width="189px" class="itemsimg")
-    img(src="images/stand.png" class="stand")
-  .cost
-    img(src="images/money.png")
-    | 89 рублей
-  .buyb
-    img(src="images/ook.png" style="margin-top: -1px;")
-    | открыть
-
-
-
-
-
-
-
-.stonecontainero
-  .item-wrapper
-  .item(data-key="Operation Breakout" data-price="99")
-    .desc
-    .name
-      | Cлучайное оружие из<br>
-    Span
-      | Кейс операции "Прорыв"
-
-
-  .img-wrapper
-  .item-link
-    img(src="images/proriv_case.png" width="189px" class="itemsimg")
-    img(src="images/stand.png" class="stand")
-  .cost
-    img(src="images/money.png")
-    | 89 рублей
-  .buyb
-    img(src="images/ook.png" style="margin-top: -1px;")
-    | открыть
-
-
-
-
-.stonecontainero
-  .item-wrapper
-  .item(data-key="Operation Vanguard" data-price="99")
-    .desc
-    .name
-      | Cлучайное оружие из<br>
-    Span
-      | Кейс операции "Авангард"
-
-
-  .img-wrapper
-  .item-link
-    img(src="images/avangard_case.png" width="189px" class="itemsimg")
-    img(src="images/stand.png" class="stand")
-  .cost
-    img(src="images/money.png")
-    | 89 рублей
-  .buyb
-    img(src="images/ook.png" style="margin-top: -1px;")
-    | открыть
-
-
-
-
-.stonecontainero
-  .item-wrapper
-  .item(data-key="Operation Bravo" data-price="99")
-    .desc
-    .name
-      | Cлучайное оружие из<br>
-    Span
-      | Кейс операции "Браво"
-
-
-  .img-wrapper
-  .item-link
-    img(src="images/bravo_case.png" width="189px" class="itemsimg")
-    img(src="images/stand.png" class="stand")
-  .cost
-    img(src="images/money.png")
-    | 99 рублей
-  .buyb
-    img(src="images/ook.png" style="margin-top: -1px;")
-    | открыть
-
-
-
-
-.stonecontainero
-  .item-wrapper
-  .item(data-key="CS:GO Weapon" data-price="99")
-    .desc
-    .name
-      | Cлучайное оружие из<br>
-    Span
-      | Оружейный кейс
-
-
-  .img-wrapper
-  .item-link
-    img(src="images/orujeiniy_case.png" width="189px" class="itemsimg")
-    img(src="images/stand.png" class="stand")
-  .cost
-    img(src="images/money.png")
-    | 99 рублей
-  .buyb
-    img(src="images/ook.png" style="margin-top: -1px;")
-    | открыть
-
-
-
-
-.stonecontainero
-  .item-wrapper
-  .item(data-key="Winter Offensive" data-price="99")
-    .desc
-    .name
-      | Cлучайное оружие из<br>
-    Span
-      | Кейс "Winter Offensive
-
-
-  .img-wrapper
-  .item-link
-    img(src="images/winter_case.png" width="189px" class="itemsimg")
-    img(src="images/stand.png" class="stand")
-  .cost
-    img(src="images/money.png")
-    | 89 рублей
-  .buyb
-    img(src="images/ook.png" style="margin-top: -1px;")
-    | открыть
-
-
-
-
-.stonecontainero
-  .item-wrapper
-  .item(data-key="Huntsman Weapon" data-price="99")
-    .desc
-    .name
-      | Cлучайное оружие из<br>
-    Span
-      | Охотничий оружейный кейс
-
-
-  .img-wrapper
-  .item-link
-    img(src="images/ohotnichiy_case.png" width="189px" class="itemsimg")
-    img(src="images/stand.png" class="stand")
-  .cost
-    img(src="images/money.png")
-    | 89 рублей
-  .buyb
-    img(src="images/ook.png" style="margin-top: -1px;")
-    | открыть
-
-
-
-
-.stonecontainero
-  .item-wrapper
-  .item(data-key="CS:GO Weapon #2" data-price="99")
-    .desc
-    .name
-      | Cлучайное оружие из<br>
-    Span
-      | Оружейный кейс: Тираж #2
-
-
-  .img-wrapper
-  .item-link
-    img(src="images/]orujeiniy2_case.png" width="189px" class="itemsimg")
-    img(src="images/stand.png" class="stand")
-  .cost
-    img(src="images/money.png")
-    | 89 рублей
-  .buyb
-    img(src="images/ook.png" style="margin-top: -1px;")
-    | открыть
-
-
-
-
-.stonecontainero
-  .item-wrapper
-  .item(data-key="CS:GO Weapon #3" data-price="99")
-    .desc
-    .name
-      | Cлучайное оружие из<br>
-    Span
-      | Оружейный кейс: Тираж #3
-
-
-  .img-wrapper
-  .item-link
-    img(src="images/orujeiniy3_case.png" width="189px" class="itemsimg")
-    img(src="images/stand.png" class="stand")
-  .cost
-    img(src="images/money.png")
-    | 89 рублей
-  .buyb
-    img(src="images/ook.png" style="margin-top: -1px;")
-    | открыть
-
-
-
-
-.stonecontainero
-  .item-wrapper
-  .item(data-key="eSports 2013" data-price="99")
-    .desc
-    .name
-      | Cлучайное оружие из<br>
-    Span
-      | Кейс eSports 2013
-
-
-  .img-wrapper
-  .item-link
-    img(src="images/esports2013_case.png" width="189px" class="itemsimg")
-    img(src="images/stand.png" class="stand")
-  .cost
-    img(src="images/money.png")
-    | 89 рублей
-  .buyb
-    img(src="images/ook.png" style="margin-top: -1px;")
-    | открыть
-
-
-
-
-.stonecontainero
-  .item-wrapper
-  .item(data-key="eSports 2013 Winter" data-price="99")
-    .desc
-    .name
-      | Cлучайное оружие из<br>
-    Span
-      | Зимный кейс eSports 2013
-
-
-  .img-wrapper
-  .item-link
-    img(src="images/esportsw2013_case.png" width="189px" class="itemsimg")
-    img(src="images/stand.png" class="stand")
-  .cost
-    img(src="images/money.png")
-    | 89 рублей
-  .buyb
-    img(src="images/ook.png" style="margin-top: -1px;")
-    | открыть
-
-
-
-
-.stonecontainero
-  .item-wrapper
-  .item(data-key="eSports 2014 Summer" data-price="99")
-    .desc
-    .name
-      | Cлучайное оружие из<br>
-    Span
-      | Кейс eSports 2014
-
-
-  .img-wrapper
-  .item-link
-    img(src="images/esports2014_case.png" width="189px" class="itemsimg")
-    img(src="images/stand.png" class="stand")
-  .cost
-    img(src="images/money.png")
-    | 89 рублей
-  .buyb
-    img(src="images/ook.png" style="margin-top: -1px;")
-    | открыть
-
-.clearfix
-  div(style="width:700px ;margin: 0 auto;")
-.stone(style="font-size 13px")
-  line-height 15px
-  color #eaeaea
-  padding 10px
-  margin-left -10px
-  margin-right -10px
-  margin-bottom 5px
-  textext-align center
-
-span(style="color #EFDA08")
-  | Вниманние Steam ввел новые ограничения, поэтому сейчас <br>
-
-  | действуют новые условия покупки
-
-a(style="color #EFDA08 cursor pointer text-decoration underline" data-modal="#rules")
-    | ознакомится с условиями
-
-div(style="padding-top 5px")
-  | Перед тем, как задавать вопросы почитайте
-
-a(style="color #EFDA08 cursor pointer text-decoration underline" data-modal="#siteFAQ" href="#")
-  | Помошь по сайту
-
-
-
-
-div(style="display: none;")
-#itemmodal(class="itemmodal")
-  div(class="box-modal_close arcticmodal-close")
-
-  #scrollerContainer
-    #caruselLine
-      #caruselOver
-        #aCanvas
-          #casesCarusel(style="margin-left: 0px;")
-            div(class="weaponblock weaponblock2 milspec")
-              img(src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz54LrTgMQhvazvADbVbVPAiywTlDi8m18tiRtCzuetVe1nr5oLPOrkkM9gdG8WEXfKFb1397R1p1fdbKceBoiPmjCzpPzgUG028e5rmkFI/125fx125f")
-           div( class="weaponblockinfo")
-            span
-               | CZ75-Auto<br>
-               | Гексан
-      //- div(class="weaponblock weaponblock2 rare")
-      //- img(src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5wOuqzNQhscxbDDKJXSMoy7TfqBjU3-9NcVtik8roKFlG64NuDbt9wYZobSt6DWaCDNQms4hhriagMfsGO8yrp2SvubDwCCkfu_2pQkbWBvro412lCXTHu-vwNOTyx/125fx125f")
-      //- <div class="weaponblockinfo">
-      //- <span>★ Керамбит<br>Северный лес</span>
-      //- <div class="weaponblock weaponblock2 milspec"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz52NeDkYAh0fTvSFLJOUPAF-AHrATMN5MZxU9L4oO9WewTu5taSMrMsOd5IFsmGXvKDYl357k1sgKdaL5aO8i_m3y-7PXBKBUQ5ngn3pA/125fx125f"><div class="weaponblockinfo">
-      //- <span>MAC-10<br>Ультрафиолет</span>
-      //- </div></div><div class="weaponblock weaponblock2 restricted">
-      //- <img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5_MeKyPDJYeh39FqVcT8o-9RrnDDUN5M5kXMOJ-7oULlnxs9DPYOItOYodTMXSD6TTYVr54x470fMJeceJ8y7v3Xi4OGsIDUa98nVExrEBa25J_A/125fx125f">
-      //- div class="weaponblockinfo">
-      //- span Desert Eagle<br>Кровавая паутина
-      //- div class="weaponblock weaponblock2 restricted"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5_MeKyPDJYeh39FqVcT8o-9RrnDDUN5M5kXMOJ-7oULlnxs9DPYOItOYodTMXSD6TTYVr54x470fMJeceJ8y7v3Xi4OGsIDUa98nVExrEBa25J_A/125fx125f"><div class="weaponblockinfo"><span>Desert Eagle<br>Кровавая паутина</span>
-      //- div class="weaponblock weaponblock2 covert">
-      //- img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56P7fiDzRyTRTDD7RWWecF9QO4Xhg-4cBrQOi69qkBLBLp5oWVO7IsONseGpaCCPGHYAr8ux8_iadcfsaIpS7siSy_aWxbXkC_5Ctaz1HySfSj/125fx125f">
-      //- div class="weaponblockinfo"><span>AK-47<br>Ягуар</span></div></div><div class="weaponblock weaponblock2 rare"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5wOuqzNQhqKzvAALlRUvAuywD1NjA36tRcWdKy_q4LFlC-9tWTLeR4ZtsfFsHXDvGCZAn7404_hvNUesSJoSPnjC28OW0PCRO6_D1VnuWZ-uw8Gn75-BI/125fx125f"><div class="weaponblockinfo"><span>★ Штык-нож M9<br>Кровавая паутина</span>
-      //- div class="weaponblock weaponblock2 classified"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz51O_W0DzRyTRfSE6lQW8o0-x7tNis77893a9u35bwDZwy94YvDYrAtZIxJG5LVXf-Hbg_57E9sgKReLMaMoSPqi3u7O2pbU0X1ujVTSqeRL14/125fx125f"><div class="weaponblockinfo"><span>Nova<br>Расцветающая ветка</span></div></div>
-      //- div class="weaponblock weaponblock2 milspec"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5jObLlYWNYeh39Eq5fV_Ap_wHiNjU37PhvXdC-44QKKE644ZySM7ElYdpJSsHQDKODZV__vx9ugqhYJ8PboyjtjijgPGwLCkG4_j9RhqbZ7Q5-_3PB/125fx125f"><div class="weaponblockinfo"><span>XM1014<br>Красный питон</span></div></div>
-      //- div class="weaponblock weaponblock2 classified"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKMyJYdAXUBKxfY_Qt5DfgACA6_PhvVcWx8vVSeg7m54LCNOV9MdBFFpbTUvKANwis4ko9g6gPfpfYoi3p2yi4P2pfRVO1rcIfh3Mb/125fx125f"><div class="weaponblockinfo"><span>AWP<br>Кортисейра</span></div></div>
-      //- div class="weaponblock weaponblock2 restricted"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz52JLSKMTpYfRfRCKZHY_c24Q3TBS414NNcWNak8L5IKw68tIXBYuZ_MtsYS5LUUvWOZw__40o9haZcLJ2Ipn69iy3gbDwCXw2rpDzl3kMWhw/125fx125f"><div class="weaponblockinfo"><span>MP7<br>Океанская пена</span></div></div>
-      //- div class="weaponblock weaponblock2 classified"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKOC5YZg3FBLJhUPw9_BzTBSYg78ItUIWw8uJTfljsvYLFZ-MpN99FG8DTD6KHNQD4408_1aBVecSO9Sy5iTOpZDnMe7RhPA/125fx125f"><div class="weaponblockinfo"><span>AUG<br>Бенгальский тигр</span></div></div>
-      //- div class="weaponblock weaponblock2 restricted"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5_MeKyPDJYeh39FqVcT8o-9RrnDDUN5M5kXMOJ-7oULlnxs9DPYOItOYodTMXSD6TTYVr54x470fMJeceJ8y7v3Xi4OGsIDUa98nVExrEBa25J_A/125fx125f"><div class="weaponblockinfo"><span>Desert Eagle<br>Кровавая паутина</span></div></div>
-      //- div class="weaponblock weaponblock2 restricted"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz55Pfm6PghvazvREaxfSOE_5jfgACA6_PhvVcWx8vVRKAvrtYWSOrUoON0fSpLSW_KONF2p6R86gqlfLpyKoC3v1S-8a2ZbRVO1rfg44WyZ/125fx125f"><div class="weaponblockinfo"><span>ПП-19 Бизон<br>Синяя струя</span></div></div>
-      //- div class="weaponblock weaponblock2 milspec"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5oJ-TlaAhmfzvYBKJMXco-9RrnNis77893a9u35bwDZwnpt4TFNLEqOd4ZSpXTWKKPNwqo70Mw1vdefZGL9iy93i7uPWheUhr1ujVTcziKRL4/125fx125f"><div class="weaponblockinfo"><span>SSG 08<br>Темная вода</span></div></div>
-      //- div class="weaponblock weaponblock2 milspec"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5oJ-TlaAhmfzvYBKJMXco-9RrnNis77893a9u35bwDZwnpt4TFNLEqOd4ZSpXTWKKPNwqo70Mw1vdefZGL9iy93i7uPWheUhr1ujVTcziKRL4/125fx125f">
-      //- div class="weaponblockinfo"><span>SSG 08<br>Темная вода</span></div></div>
-      //- div class="weaponblock weaponblock2 classified"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56IeSKOC5YZg3FBLJhUPw9_BzTBSYg78ItUIWw8uJTfljsvYLFZ-MpN99FG8DTD6KHNQD4408_1aBVecSO9Sy5iTOpZDnMe7RhPA/125fx125f"><div class="weaponblockinfo"><span>AUG<br>Бенгальский тигр</span></div></div>
-      //- div class="weaponblock weaponblock2 rare"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5wOuqzNQhhfg3SPqFTY_g75grgDBg06cNma9u_8LMSFlC-9tWTLbUrYdFFHJGCXPCFZFusuEw8gvUOJpPcqH-9iHm_M2YOXBC9q25WnO6Z-uw8Y8ANU94/125fx125f"><div class="weaponblockinfo"><span>★ Складной нож<br>Marble Fade</span></div></div><div class="weaponblock weaponblock2 restricted"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz58OOy2OwhmfzvGBbBfSPE_-hvpNjQ75NFmRui6_rwOPWOz5cCRZq4oZNBPTMCBWqSPYwGvuEo91qdUK8aOoC7o1CTvbz1fXhq9_jlRmOPWpPI11VgXmgp7/125fx125f"><div class="weaponblockinfo"><span>Glock-18<br>Ржавая сталь</span></div></div>
-      //- div class="weaponblock weaponblock2 milspec"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5oJ-TlaAhmfzvYBKJMXco-9RrnNis77893a9u35bwDZwnpt4TFNLEqOd4ZSpXTWKKPNwqo70Mw1vdefZGL9iy93i7uPWheUhr1ujVTcziKRL4/125fx125f"><div class="weaponblockinfo"><span>SSG 08<br>Темная вода</span></div></div>
-      //- div class="weaponblock weaponblock2 milspec"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz52NeDkYAh0fTvSFLJOUPAF-AHrATMN5MZxU9L4oO9WewTu5taSMrMsOd5IFsmGXvKDYl357k1sgKdaL5aO8i_m3y-7PXBKBUQ5ngn3pA/125fx125f"><div class="weaponblockinfo"><span>MAC-10<br>Ультрафиолет</span></div></div>
-      //- div class="weaponblock weaponblock2 rare"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5wOuqzNQhhfg3SPqFTY_g75grgDBg06cNma9u_8LMSFlC-9tWTLbUrYdFFHJGCXPCFZFusuEw8gvUOJpPcqH-9iHm_M2YOXBC9q25WnO6Z-uw8Y8ANU94/125fx125f"><div class="weaponblockinfo"><span>★ Складной нож<br>Marble Fade</span></div></div>
-      //- div class="weaponblock weaponblock2 classified"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz56I_OKMyJYdAXUBKxfY_Qt5DfgACA6_PhvVcWx8vVSeg7m54LCNOV9MdBFFpbTUvKANwis4ko9g6gPfpfYoi3p2yi4P2pfRVO1rcIfh3Mb/125fx125f"><div class="weaponblockinfo"><span>AWP<br>Кортисейра</span></div></div>
-      //- div class="weaponblock weaponblock2 restricted"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz55Pfm6PghvazvREaxfSOE_5jfgACA6_PhvVcWx8vVRKAvrtYWSOrUoON0fSpLSW_KONF2p6R86gqlfLpyKoC3v1S-8a2ZbRVO1rfg44WyZ/125fx125f"><div class="weaponblockinfo"><span>ПП-19 Бизон<br>Синяя струя</span></div></div>
-      //- div class="weaponblock weaponblock2 milspec"><img src="//steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5oJ-TlaAhmfzvYBKJMXco-9RrnNis77893a9u35bwDZwnpt4TFNLEqOd4ZSpXTWKKPNwqo70Mw1vdefZGL9iy93i7uPWheUhr1ujVTcziKRL4/125fx125f">
+body
+  .container
+
+    .header
+      nav.navbar(role="navigation")
+        a.navbar-brand(href="#") Open Case
+        ul.nav.navbar-nav.navbar-left
+          li
+            a(href="#") Консультант
+          li
+            a(href="#") Гарантии
+          li
+            a(href="#") Помощь
+
+    .content
+      .content-header
+
+      .content-body
+        - for (var i=0;i<10;i++)
+          .item-wrapper
+            .item(data-key="Winter Offensive" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Кейс "Winter Offensive
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/winter_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 89 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
 
 
 

@@ -1,13 +1,19 @@
 # Write your code here!
 
-$ ->
-  console.log "You are awesome!"
+createBackground = ->
+  pattern = Trianglify
+    width: window.innerWidth,
+    height: window.innerHeight
+  $('canvas').remove()
+  $('body').append(pattern.canvas())
+
+$(document).ready ->
+  createBackground()
 
 
 
-
-
-
+$(window).resize ->
+  createBackground()
 
 
 
