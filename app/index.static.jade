@@ -3,8 +3,7 @@ head
   meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
   title Открывайте кейсы CS:GO с выгодой!
   link(rel="stylesheet" href="stylesheets/app.css")
-  //- link( href="stylesheets/style.css" rel="stylesheet")
-
+  link( href="stylesheets/style.css" rel="stylesheet")
   script(src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.0/trianglify.min.js")
   script(src="javascripts/vendor.js")
   script(src="javascripts/app.js")
@@ -18,23 +17,292 @@ head
 
 body
   .container
-
     .header
       nav.navbar(role="navigation")
-        a.navbar-brand(href="#") Open Case
+        a.navbar-brand(href="#" ) open case
         ul.nav.navbar-nav.navbar-left
           li
             a(href="#") Консультант
           li
-            a(href="#") Гарантии
+            a(href="#modal-1" data-toggle="modal" data-target="#modal-1") Гарантии
+              .modal(id="#modal-1")
+               .modal-dialog
+                .modal-content
+                  div(style="text-align: center; color: #D3A22C; font-weight: bold; font-size: 20px; text-transform: uppercase; padding-bottom: 5px;")
+                      | Наши гарантии
+                  .modal-header
+                    h4.modal-title
+                      | название окна
+                  .modal-body
+                      | это модальное окно
+                  .modal-footer
           li
-            a(href="#") Помощь
+            a.one-line(href="#") Помощь
+script
+  $('document').ready(function(){
+    2
+    $('#modal').modal();
+    3
+});
+
+
+
+
+
+
 
     .content
       .content-header
+        .lenta
+          h1.lenta
+            | Последние выигрыши
+          h2.lenta
+            | в прямом эфире
+
+        .content-lenta
+          .item-lenta
+
+
 
       .content-body
-        - for (var i=0;i<10;i++)
+         .item-wrapper
+            .item(data-key="Chroma Case 2" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Chroma Case №2
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/chroma_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 110 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
+
+
+
+          .item-wrapper
+            .item(data-key="Chroma Case" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Chroma Case
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/chroma_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 99 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
+
+
+
+          .item-wrapper
+            .item(data-key="Operation Phoenix" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Кейс операции "Феникс"
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/fenix_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 89 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
+
+
+
+          .item-wrapper
+            .item(data-key="Operation Breakout" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Кейс операции "Прорыв"
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/proriv_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 89 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
+
+          .item-wrapper
+            .item(data-key="Operation Vanguard" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Кейс операции "Авангард"
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/avangard_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 89 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
+
+          .item-wrapper
+            .item(data-key="Operation Bravo" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Кейс операции "Браво"
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/bravo_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 89 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
+
+          .item-wrapper
+            .item(data-key="CS:GO Weapon" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Оружейный кейс
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/orujeiniy_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 89 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
+
+
+          .item-wrapper
+            .item(data-key="Huntsman Weapon" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Охотничий оружейный кейс
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/ohotnichiy_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 89 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
+
+          .item-wrapper
+            .item(data-key="CS:GO Weapon #2" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Оружейный кейс: Тираж #2
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/orujeiniy2_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 89 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
+
+          .item-wrapper
+            .item(data-key="CS:GO Weapon #3" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Оружейный кейс: Тираж #3
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/orujeiniy3_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 89 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
+
+          .item-wrapper
+            .item(data-key="eSports 2013" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Кейс eSports 2013
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/esports2013_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 89 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
+
           .item-wrapper
             .item(data-key="Winter Offensive" data-price="99")
               .desc
@@ -56,11 +324,62 @@ body
                 img(src="images/ook.png")
                 | открыть
 
+          .item-wrapper
+            .item(data-key="eSports 2013 Winter" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Зимный кейс eSports 2013
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/esportsw2013_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 89 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
+
+          .item-wrapper
+            .item(data-key="eSports 2014 Summer" data-price="99")
+              .desc
+                .name
+                  | Cлучайное оружие из<br>
+                Span
+                  | Кейс eSports 2014
+
+
+              .img-wrapper
+                .item-link
+                  img.itemsimg(src="images/esports2014_case.png" width="189px")
+              img.stand(src="images/stand.png")
+
+              .cost
+                img(src="images/money.png")
+                | 89 рублей
+              .buyb
+                img(src="images/ook.png")
+                | открыть
+
+
+.titles
+  span(text-align="center")
+    | Консультант
 
 
 
 
-
+.stone
+  span(style="color: #EFDA08;")
+  <span style="color: #EFDA08;">ВНИМАНИЕ!</span> Steam ввел новые ограничения, поэтому сейчас действуют новые условия покупки
+  <div style="padding-left: px;">
+  Перед тем, как задавать вопросы почитайте <a style="color: #EFDA08; cursor: pointer; text-decoration: underline;" data-modal="#siteFAQ" href="#">"Помощь по сайту"</a>
+  </div>
 
 
 
