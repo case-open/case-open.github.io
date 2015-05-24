@@ -24,26 +24,9 @@ body
           li
             a(href="#") Консультант
           li
-            a(href="#modal-1" data-toggle="modal" data-target="#modal-1") Гарантии
-              .modal(id="#modal-1")
-               .modal-dialog
-                .modal-content
-                  div(style="text-align: center; color: #D3A22C; font-weight: bold; font-size: 20px; text-transform: uppercase; padding-bottom: 5px;")
-                      | Наши гарантии
-                  .modal-header
-                    h4.modal-title
-                      | название окна
-                  .modal-body
-                      | это модальное окно
-                  .modal-footer
+            a(href="#modal" data-toggle="modal" data-target="#modal") Гарантии
           li
             a.one-line(href="#") Помощь
-
-
-
-
-
-
 
 
     .content
@@ -60,180 +43,8 @@ body
 
 
       .content-body
-         .item-wrapper
-            .item(data-key="Chroma Case 2" data-price="99")
-              .desc
-                .name
-                  | Cлучайное оружие из<br>
-                Span
-                  | Chroma Case №2
 
 
-              .img-wrapper
-                .item-link
-                  img.itemsimg(src="images/chroma_case.png" width="189px")
-              img.stand(src="images/stand.png")
-
-              .cost
-                img(src="images/money.png")
-                | 110 рублей
-              .buyb
-                img(src="images/ook.png")
-                | открыть
-
-
-
-          .item-wrapper
-            .item(data-key="Chroma Case" data-price="99")
-              .desc
-                .name
-                  | Cлучайное оружие из<br>
-                Span
-                  | Chroma Case
-
-
-              .img-wrapper
-                .item-link
-                  img.itemsimg(src="images/chroma_case.png" width="189px")
-              img.stand(src="images/stand.png")
-
-              .cost
-                img(src="images/money.png")
-                | 99 рублей
-              .buyb
-                img(src="images/ook.png")
-                | открыть
-
-
-
-          .item-wrapper
-            .item(data-key="Operation Phoenix" data-price="99")
-              .desc
-                .name
-                  | Cлучайное оружие из<br>
-                Span
-                  | Кейс операции "Феникс"
-
-
-              .img-wrapper
-                .item-link
-                  img.itemsimg(src="images/fenix_case.png" width="189px")
-              img.stand(src="images/stand.png")
-
-              .cost
-                img(src="images/money.png")
-                | 89 рублей
-              .buyb
-                img(src="images/ook.png")
-                | открыть
-
-
-
-          .item-wrapper
-            .item(data-key="Operation Breakout" data-price="99")
-              .desc
-                .name
-                  | Cлучайное оружие из<br>
-                Span
-                  | Кейс операции "Прорыв"
-
-
-              .img-wrapper
-                .item-link
-                  img.itemsimg(src="images/proriv_case.png" width="189px")
-              img.stand(src="images/stand.png")
-
-              .cost
-                img(src="images/money.png")
-                | 89 рублей
-              .buyb
-                img(src="images/ook.png")
-                | открыть
-
-          .item-wrapper
-            .item(data-key="Operation Vanguard" data-price="99")
-              .desc
-                .name
-                  | Cлучайное оружие из<br>
-                Span
-                  | Кейс операции "Авангард"
-
-
-              .img-wrapper
-                .item-link
-                  img.itemsimg(src="images/avangard_case.png" width="189px")
-              img.stand(src="images/stand.png")
-
-              .cost
-                img(src="images/money.png")
-                | 89 рублей
-              .buyb
-                img(src="images/ook.png")
-                | открыть
-
-          .item-wrapper
-            .item(data-key="Operation Bravo" data-price="99")
-              .desc
-                .name
-                  | Cлучайное оружие из<br>
-                Span
-                  | Кейс операции "Браво"
-
-
-              .img-wrapper
-                .item-link
-                  img.itemsimg(src="images/bravo_case.png" width="189px")
-              img.stand(src="images/stand.png")
-
-              .cost
-                img(src="images/money.png")
-                | 89 рублей
-              .buyb
-                img(src="images/ook.png")
-                | открыть
-
-          .item-wrapper
-            .item(data-key="CS:GO Weapon" data-price="99")
-              .desc
-                .name
-                  | Cлучайное оружие из<br>
-                Span
-                  | Оружейный кейс
-
-
-              .img-wrapper
-                .item-link
-                  img.itemsimg(src="images/orujeiniy_case.png" width="189px")
-              img.stand(src="images/stand.png")
-
-              .cost
-                img(src="images/money.png")
-                | 89 рублей
-              .buyb
-                img(src="images/ook.png")
-                | открыть
-
-
-          .item-wrapper
-            .item(data-key="Huntsman Weapon" data-price="99")
-              .desc
-                .name
-                  | Cлучайное оружие из<br>
-                Span
-                  | Охотничий оружейный кейс
-
-
-              .img-wrapper
-                .item-link
-                  img.itemsimg(src="images/ohotnichiy_case.png" width="189px")
-              img.stand(src="images/stand.png")
-
-              .cost
-                img(src="images/money.png")
-                | 89 рублей
-              .buyb
-                img(src="images/ook.png")
-                | открыть
 
           .item-wrapper
             .item(data-key="CS:GO Weapon #2" data-price="99")
@@ -362,19 +173,14 @@ body
                 | открыть
 
 
-.titles
-  span(text-align="center")
-    | Консультант
 
 
+    .stone
+      span(style="color: #EFDA08;")
+        | ВНИМАНИЕ!
+      | Steam ввел новые ограничения, поэтому сейчас действуют новые условия покупки<br>
 
-
-.stone
-  span(style="color: #EFDA08;")
-  <span style="color: #EFDA08;">ВНИМАНИЕ!</span> Steam ввел новые ограничения, поэтому сейчас действуют новые условия покупки
-  <div style="padding-left: px;">
-  Перед тем, как задавать вопросы почитайте <a style="color: #EFDA08; cursor: pointer; text-decoration: underline;" data-modal="#siteFAQ" href="#">"Помощь по сайту"</a>
-  </div>
+      | Перед тем, как задавать вопросы почитайте <a style="color: #EFDA08; cursor: pointer; text-decoration: underline;" data-modal="#siteFAQ" href="#">"Помощь по сайту"</a>
 
 
 
@@ -385,12 +191,43 @@ body
 
 
 
+  .modal#modal
+    .modal-dialog
+      .modal-content
+        .modal-header
+          div(style="text-align: center; color: #D3A22C; font-weight: bold; font-size: 20px; text-transform: uppercase; padding-bottom: 5px;")
+              | Наши гарантии
+        .modal-body
+          | Верифицированный аккаунт Digiseller
+          br
+          | Мы принимаем оплату через платежные системы Oplata.Info
+          br
+          | Верифицированный аккаунт - значит что мы прошли полную проверку личности и магазина перед добавлением в
+          | платежные системы.
+          | Персональный аттестат Webmoney
+          br
+          | Персональный аттестат WebMoney - цифровое удостоверение личности заверенное аналогом собственноручной
+          | подписи участника системы WebMoney Transfer, в котором записаны личные данные его обладателя: ФИО, паспортная и контактная информация.
+          | Полная идентификация в системах QIWI и Яндекс.Деньги
+          br
+          | Мы принимаем оплату на этом сайте на наши идентифицированные счета
+          br
+          | Полная идентификация выдаются магазинам только после личной встречи в пунктах партнеров QIWI или
+          | дополнительных офисах Киви банк (ЗАО) и после полной полной проверки магазина.
+        //- .modal-footer
 
 
 
 
-
-
+  .modal#game
+    .modal-dialog
+      .modal-content
+        .modal-header
+          div(style="text-align: center; color: #D3A22C; font-weight: bold; font-size: 20px; text-transform: uppercase; padding-bottom: 5px;")
+              | Розыгрыш
+        .modal-body
+          button.roll
+            | Крутить рулетку
 
 
 
